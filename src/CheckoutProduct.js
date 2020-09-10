@@ -63,7 +63,7 @@ const CheckoutProduct = forwardRef(
             {Array(rating)
               .fill()
               .map((_, i) => (
-                <p>🌟</p>
+                <p key={i}>🌟</p>
               ))}
           </div>
           <button onClick={removeFromBasket}>Remove from Basket</button>
