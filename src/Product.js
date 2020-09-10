@@ -36,8 +36,10 @@ function Product({ id, title, image, price, rating }) {
             })}
         </div>
       </div>
-      <img src={image} alt="" className="product__image" />
-      <button onClick={addToBasket}>Add to basket</button>
+      <div>
+        <img src={image} alt="" className="product__image" />
+        <button onClick={addToBasket}>Add to basket</button>
+      </div>
     </div>
   );
 }

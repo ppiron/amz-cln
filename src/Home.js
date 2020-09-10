@@ -45,7 +45,7 @@ function Home() {
           />
           <Product
             id={5}
-            title="An efficient, wireless MFP with fax for high-quality colour. Save time with Smart Tasks in HP Smart app, and print and scan from your phone. Get seamless connections and strong security designed to help detect and stop attacks."
+            title="An efficient, wireless MFP with fax for high-quality colour. Save time with Smart Tasks in HP Smart app, and print and scan from your phone."
             image="https://images-na.ssl-images-amazon.com/images/I/71gZIm-TrXL._AC_SL1500_.jpg"
             price={690.99}
             rating={5}
